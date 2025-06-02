@@ -24,13 +24,5 @@
     <version>3.0.24</version>
     <type>pom</type>
 </dependency>
-
-
-
-  	<dependency>
-  		<groupId>CucumberProject</groupId>
-  		<artifactId>CucumberProject</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>
