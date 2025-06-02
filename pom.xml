@@ -15,6 +15,12 @@
     <artifactId>cucumber-java</artifactId>
     <version>7.19.0</version>
 </dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version> <!-- Stable & compatible with Cucumber -->
+    <scope>test</scope>
+</dependency>
 
 
 <!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all -->
@@ -25,12 +31,15 @@
     <type>pom</type>
 </dependency>
 
-
-
-  	<dependency>
-  		<groupId>CucumberProject</groupId>
-  		<artifactId>CucumberProject</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+   	<dependency>
+   		<groupId>bdd</groupId>
+   		<artifactId>APIFrameWork</artifactId>
+   		<version>0.0.1-SNAPSHOT</version>
+   	</dependency>
+   	<dependency>
+   		<groupId>GitX</groupId>
+   		<artifactId>GitX</artifactId>
+   		<version>0.0.1-SNAPSHOT</version>
+   	</dependency>
+   </dependencies>
 </project>
