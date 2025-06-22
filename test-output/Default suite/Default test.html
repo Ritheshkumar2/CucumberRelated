@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 02 09:44:09 IST 2025</td>
+<td>Started on:</td><td>Sat Jun 21 19:51:26 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11401 ms)</td>
+<tr><td>Total time:</td><td>27 seconds (27545 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,47 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestRunner.runScenario()'><b>runScenario</b><br>Test class: test.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search for different terms and verify title contains term", "Google Search functionality"</td>
+<td><div><pre>java.lang.AssertionError: Title does not contain search term
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+	at ✽.The page title should contain &quot;Selenium&quot;(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace892611887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace892611887'><pre>java.lang.AssertionError: Title does not contain search term
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+	at ✽.The page title should contain &quot;Selenium&quot;(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+</pre></div></td>
+<td>8</td>
+<td>test.TestRunner@4961f6af</td></tr>
+<tr>
+<td title='test.TestRunner.runScenario()'><b>runScenario</b><br>Test class: test.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search for different terms and verify title contains term", "Google Search functionality"</td>
+<td><div><pre>java.lang.AssertionError: Title does not contain search term
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+	at ✽.The page title should contain &quot;Java&quot;(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1022130643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1022130643'><pre>java.lang.AssertionError: Title does not contain search term
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+	at ✽.The page title should contain &quot;Java&quot;(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+</pre></div></td>
+<td>9</td>
+<td>test.TestRunner@4961f6af</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,9 +117,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.TestRunner.runScenario()'><b>runScenario</b><br>Test class: test.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "search for something on the google", "Launch the google page"</td>
+<td title='test.TestRunner.runScenario()'><b>runScenario</b><br>Test class: test.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search for different terms and verify title contains term", "Google Search functionality"</td>
 <td></td>
-<td>10</td>
+<td>8</td>
 <td>test.TestRunner@4961f6af</td></tr>
 </table><p>
 </body>
