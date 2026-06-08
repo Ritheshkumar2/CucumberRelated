@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2026-04-25T10:41:15 IST" name="Default suite" finished-at="2026-04-25T10:41:56 IST" duration-ms="40726">
+=======
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-21T19:51:26 IST" name="Default suite" finished-at="2025-06-21T19:51:54 IST" duration-ms="27545">
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@65d09a04]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2026-04-25T10:41:15 IST" name="Default test" finished-at="2026-04-25T10:41:56 IST" duration-ms="40726">
       <class name="test.TestRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TestRunner@65d09a04]" started-at="2026-04-25T10:41:15 IST" name="setUpClass" finished-at="2026-04-25T10:41:17 IST" duration-ms="1775" status="PASS">
@@ -15,22 +23,101 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@5c73f672]]>
+=======
+    <test started-at="2025-06-21T19:51:26 IST" name="Default test" finished-at="2025-06-21T19:51:54 IST" duration-ms="27545">
+      <class name="test.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TestRunner@4961f6af]" started-at="2025-06-21T19:51:26 IST" name="setUpClass" finished-at="2025-06-21T19:51:27 IST" duration-ms="951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eed2d86]]>
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@65d09a04]" started-at="2026-04-25T10:41:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-25T10:41:35 IST" duration-ms="18257" status="FAIL">
           <params>
             <param index="0">
               <value>
                 <![CDATA["launch the app with different credentials"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@4961f6af]" started-at="2025-06-21T19:51:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-21T19:51:37 IST" duration-ms="9521" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different terms and verify title contains term"]]>
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["User Login"]]>
+=======
+                <![CDATA["Google Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not contain search term]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not contain search term
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+at ✽.The page title should contain "Java"(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@4961f6af]" started-at="2025-06-21T19:51:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-21T19:51:45 IST" duration-ms="8053" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different terms and verify title contains term"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title does not contain search term]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title does not contain search term
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at stepdef.StepDefenitionRelatedClass.page_title_should_contain(StepDefenitionRelatedClass.java:56)
+at ✽.The page title should contain "Selenium"(file:///C:/Users/hp/eclipse-workspace/CucumberRelated/src/main/java/featurefile/googlesearch.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@4961f6af]" started-at="2025-06-21T19:51:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-21T19:51:54 IST" duration-ms="8904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different terms and verify title contains term"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search functionality"]]>
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
               </value>
             </param>
           </params>
@@ -92,6 +179,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunner@65d09a04]" started-at="2026-04-25T10:41:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-25T10:41:45 IST" duration-ms="9386" status="FAIL">
           <params>
             <param index="0">
@@ -235,6 +323,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TestRunner@65d09a04]" started-at="2026-04-25T10:41:56 IST" name="tearDownClass" finished-at="2026-04-25T10:41:56 IST" duration-ms="68" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TestRunner@4961f6af]" started-at="2025-06-21T19:51:54 IST" name="tearDownClass" finished-at="2025-06-21T19:51:54 IST" duration-ms="30" status="PASS">
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

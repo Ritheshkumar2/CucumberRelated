@@ -8,6 +8,10 @@
           <include name="setUpClass"/>
           <include name="runScenario" invocation-numbers="0 1 2"/>
           <include name="tearDownClass"/>
+<<<<<<< HEAD
+=======
+          <include name="runScenario" invocation-numbers="0 1"/>
+>>>>>>> 77e1a0ad74604401a23cbf743741671a1f5fd246
         </methods>
       </class> <!-- test.TestRunner -->
     </classes>
